@@ -25,3 +25,7 @@ support that capability. This capability is required for your
 configuration of Vagrant. Please either reconfigure Vagrant to
 avoid this capability or fix the issue by creating the capability.
 ```
+
+## License
+
+[CC0-1.0](./LICENSE).
