@@ -1,0 +1,16 @@
+all:
+  hosts:
+    test1.test:
+      ansible_ip: '10.11.16.101'
+      cpus: 1
+      memory: 512
+      aliases:
+        - "test1a.test"
+        - "test1b.test"
+    test2.test:
+      ansible_ip: '10.11.16.102'
+      cpus: 1
+      memory: 512
+      aliases:
+        - "test2a.test"
+        - "test2b.test"

@@ -1,0 +1,11 @@
+---
+- name: "test vagrant ansible"
+  hosts: all
+  become: true
+  tasks:
+    - name: 'test message hostname'
+      debug:
+        msg: "hostname: {{ ansible_hostname }}, ip: {{ ansible_ip }}"
+    - name: 'test message other vars'
+      debug:
+        msg: "cpus: {{ cpus }}, memory: {{ memory}}, aliases {{ aliases }} "
